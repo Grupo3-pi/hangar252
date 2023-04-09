@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*9v!y#rvq&&tu(ihbhi85ev*01wbtsq1ii_oa=7x%t(0_awp-!
 DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app']
-
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-BR'
 
-TIME_ZONE = 'America'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
